@@ -22,6 +22,7 @@ TO DO - HELP LIST
 - Need to show a checkbox (one per mailbox) on the /users/notifications/userid page that is to the right of the "Notify Me When There Is A New Conversation", so that you can turn on/off the New Conversation Email for each mailbox individually (see attached mockup.jpg).
 - Need to write the code that would actually update the custom table in the db when the user changes their preferences on the above mockup screen.
 
+# Mockup of how it could look
 ![mockup](https://user-images.githubusercontent.com/19673842/222625051-06c4fcc2-d95a-4c89-877c-56ddc9bf3bbf.jpg)
 
 # Need to create new table in freescout database
