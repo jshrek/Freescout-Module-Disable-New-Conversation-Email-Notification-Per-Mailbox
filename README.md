@@ -26,7 +26,7 @@ TO DO - HELP LIST
 ![mockup](https://user-images.githubusercontent.com/19673842/222625051-06c4fcc2-d95a-4c89-877c-56ddc9bf3bbf.jpg)
 
 # Need to create new table in freescout database
-
+```
 CREATE TABLE `subscriptions_disable_new_convo` (
   `id` int(10) NOT NULL,
   `user_id` int(10) NOT NULL,
@@ -40,3 +40,4 @@ ALTER TABLE `subscriptions_disable_new_convo`
 ALTER TABLE `subscriptions_disable_new_convo`
   MODIFY `id` int(10) NOT NULL AUTO_INCREMENT;
 COMMIT;
+```
