@@ -1,0 +1,25 @@
+{
+    "name": "freescout/disablenewconvoemailpermailbox",
+    "description": "",
+    "authors": [
+        {
+            "name": "FreeScout",
+            "email": "support@freescout.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\DisableNewConvoEmailPerMailbox\\Providers\\DisableNewConvoEmailPerMailboxServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\DisableNewConvoEmailPerMailbox\\": ""
+        }
+    }
+}

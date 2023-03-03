@@ -1,0 +1,22 @@
+{
+    "name": "Disable New Conversation Email Notification per Mailbox",
+    "alias": "disablenewconvoemailpermailbox",
+    "description": "Allows users to disable New Conversation email notification on a per mailbox basis.",
+    "version": "0.9.0",
+    "detailsUrl": "",
+    "author": "Jeff Sherk",
+    "authorUrl": "",
+    "requiredAppVersion": "1.0.2",
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "active": 0,
+    "order": 0,
+    "providers": [
+        "Modules\\DisableNewConvoEmailPerMailbox\\Providers\\DisableNewConvoEmailPerMailboxServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}
