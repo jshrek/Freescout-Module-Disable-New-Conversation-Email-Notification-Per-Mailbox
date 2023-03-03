@@ -1,4 +1,4 @@
-# Freescout-Module-Disable-New-Conversation-Email-Notification-Per-Mailbox
+# Disable New Conversation Email Notification Per Mailbox - Freescout Module
 BETA version ... not ready for production yet!!!
 
 This is a module for Freescout that will allow users to disable the New Conversation email notification for any mailbox they have access too, on a per mailbox basis.
