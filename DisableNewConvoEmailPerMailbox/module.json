@@ -6,6 +6,7 @@
     "detailsUrl": "",
     "author": "Jeff Sherk",
     "authorUrl": "",
+    "img": "/modules/disablenewconvoemailpermailbox/img/icon-256x256.png",
     "requiredAppVersion": "1.0.2",
     "license": "AGPL-3.0",
     "keywords": [],
