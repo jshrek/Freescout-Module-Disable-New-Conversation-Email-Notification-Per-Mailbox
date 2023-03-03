@@ -23,3 +23,19 @@ TO DO - HELP LIST
 - Need to write the code that would actually update the custom table in the db when the user changes their preferences on the above mockup screen.
 
 ![mockup](https://user-images.githubusercontent.com/19673842/222625051-06c4fcc2-d95a-4c89-877c-56ddc9bf3bbf.jpg)
+
+# Need to create new table in freescout database
+
+CREATE TABLE `subscriptions_disable_new_convo` (
+  `id` int(10) NOT NULL,
+  `user_id` int(10) NOT NULL,
+  `mailbox_id` int(10) NOT NULL,
+  `notes` text NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+ALTER TABLE `subscriptions_disable_new_convo`
+  ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `subscriptions_disable_new_convo`
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT;
+COMMIT;
