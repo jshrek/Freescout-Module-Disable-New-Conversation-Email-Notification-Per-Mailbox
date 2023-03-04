@@ -28,6 +28,15 @@ class DisableNewConvoEmailPerMailboxServiceProvider extends ServiceProvider
         $this->registerFactories();
         $this->loadMigrationsFrom(__DIR__ . '/../Database/Migrations');
         $this->hooks();
+        
+        
+        // Add module JS file
+        \Eventy::addFilter('javascripts', function($value) {
+            array_push($value, '/modules/disablenewconvoemailpermailbox/js/DisableNewConvoEmailPerMailbox.js');
+            return $value;
+        }, 20, 1);
+        
+        
     }
 
     /**
